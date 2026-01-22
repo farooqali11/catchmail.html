@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+
+    <div class="card">
+      <h2>Create Temporary Mailbox</h2>
+      <form id="custom_domain_form">
+        <input id="custom_domain" type="text" placeholder="yourname" />
+        <input type="submit" value="Create Mailbox" />
+      </form>
+    </div>
+
+    <div class="card">
+      <h2>Your Email Address</h2>
+      <div id="booked_email_address" class="email-address">-</div>
+    </div>
+
+    <div class="card">
+      <h2>Inbox</h2>
+      <ul id="list">
+        <li><strong>ID | From | Subject</strong></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Email Content</h2>
+      <div id="currentEmail">Select an email to read.</div>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
